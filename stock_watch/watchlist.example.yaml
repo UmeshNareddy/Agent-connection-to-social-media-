@@ -1,0 +1,19 @@
+# Copy to watchlist.yaml and edit. A headline is marked urgent (and copied to
+# alerts.jsonl) when ANY of these match.
+
+# Tickers or words to look for in headlines. Short ALL-CAPS entries (like NVDA)
+# match exact case only; everything else ignores case.
+keywords:
+  - NVDA
+  - Nvidia
+  - TSLA
+  - Tesla
+  - Fed
+  - tariff
+
+# Reinvest categories to always treat as urgent (exact names from the site).
+categories:
+  - Fed & Rates
+
+# BREAKING headlines (shown in red on the site) are urgent by default.
+breaking_is_urgent: true
